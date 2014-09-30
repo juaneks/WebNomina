@@ -1,0 +1,389 @@
+/*--------------------------MENU-----------------------------*/
+.navmenu
+{
+   font-family: 'Open Sans','Helvetica' !important;
+}
+
+.submenu
+{
+ background: rgba(0,0,0,0.5);
+ height: 40px;
+ width: 100%;
+  margin-top: -15px;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+
+
+
+ul.claro-hmenu a, ul.claro-hmenu a:link, ul.claro-hmenu a:visited 
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+   padding: 8px 25px 8px 25px;
+}
+
+ul.claro-hmenu, ul.claro-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0px 15px 0px 0px;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.claro-hmenu li
+{
+   position: relative;
+   z-index: 5;
+   display: block;
+   float: left;
+   background: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul.claro-hmenu li:hover
+{
+   z-index: 10;
+   white-space: normal;
+
+}
+
+ul.claro-hmenu:after, ul.claro-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+
+ul.claro-hmenu, ul.claro-hmenu ul 
+{
+   min-height: 0;
+}
+
+ul.claro-hmenu 
+{
+   display: inline-block;
+   vertical-align: bottom;
+   padding-left: 0px;
+   padding-right: 10px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+
+
+.claro-hmenu
+{
+   float: left;
+}
+
+
+ul.claro-hmenu>li {
+   margin-left: 0px;
+   border-left: 1px solid #615B5B;
+   border-right: 1px solid #615B5B;
+   border-top: 1px solid #615B5B;
+}
+
+ul.claro-hmenu>li:first-child {
+   margin-left: 0px;
+}
+ul.claro-hmenu>li:last-child, ul.claro-hmenu>li.last-child {
+   margin-right: 7px;
+}
+
+ul.claro-hmenu>li>a
+{
+   padding:3px 15px 3px 15px;
+   margin:0 auto;
+   position: relative;
+   display: block;
+   height: 28px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #69697e;
+   line-height: 28px;
+   text-align: center;
+}
+
+.claro-hmenu a, 
+.claro-hmenu a:link, 
+.claro-hmenu a:visited, 
+.claro-hmenu a.active, 
+.claro-hmenu a:hover
+{
+   font-size: 13px;
+   font-family:'Open San','Helvetica';
+   font-weight:bold;
+   font-style: normal;
+   text-decoration: none;
+   text-align: left;
+
+
+}
+
+ul.claro-hmenu>li>a
+{
+ background-color: #232323;
+ color: #f2f3f3;
+ -webkit-transition: all 0.5;
+ -moz-transition: all 0.5;
+ -ms-transition: all 0.5;
+ -o-transition: all 0.5;
+ transition: all 0.5;
+}
+
+
+ ul.claro-hmenu>li:hover>a {
+   color: #ABE7E7 !important;
+   background-color: #1A4646 !important;
+}
+
+ul.claro-hmenu>li>a:visited, 
+ul.claro-hmenu>li>a:hover, 
+ul.claro-hmenu>li:hover>a {
+   text-decoration: none;
+}
+
+
+
+
+ul.claro-hmenu>li:before
+{
+   position:absolute;
+   display: block;
+   content:' ';
+   top:0;
+   left:  -14px;
+   width:14px;
+   height: 28px;
+  
+}
+ul.claro-hmenu>li:first-child:before{
+   display:none;
+}
+
+ul.claro-hmenu li li a
+{
+   background: #069E9E;
+   background: transparent;
+   padding:0 22px;
+   margin:0 auto;
+}
+ul.claro-hmenu li li 
+{
+   float: none;
+   width: auto;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+
+
+ul.claro-hmenu li li ul>li:last-child 
+{
+   margin-bottom: 0;
+}
+
+.claro-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 21px;
+   min-width: 7em;
+   border: 0 solid transparent;
+   text-align: left;
+   line-height: 21px;
+    color: #69697e;
+   font-size: 11px;
+   font-family: 'Open San','Helvetica';
+   text-decoration: none;
+   margin:0;
+}
+
+.claro-hmenu ul a:link, 
+.claro-hmenu ul a:visited, 
+.claro-hmenu ul a.active, 
+.claro-hmenu ul a:hover
+{
+   text-align: left;
+   line-height: 21px;
+   color: #69697e;
+   font-size: 12px;
+   font-family:'Open San','Helvetica';
+   text-decoration: none;
+   margin:0;
+}
+
+ul.claro-hmenu li li:after
+{
+   display: block;
+   position: absolute;
+   content: ' ';
+   height: 0;
+   top: -1px;
+   left: 0;
+   right: 0;
+   z-index: 5;
+   border-bottom: 1px solid #CECECE;
+}
+
+ ul.claro-hmenu li li:first-child:before, 
+ ul.claro-hmenu li li:first-child:after 
+{
+   display: none;
+} 
+
+ul.claro-hmenu ul li a:hover,  ul.claro-hmenu ul li:hover>a
+{
+   background: #069E9E !important;
+   background: transparent;
+   margin:0 auto;
+}
+
+ ul.claro-hmenu ul li>a
+ {
+    background-color:#f2f3f3;
+ }
+
+ .claro-hmenu ul li:hover>a
+{
+   color: #fff;
+   font-size: 13px;
+}
+
+ul.claro-hmenu ul:before
+{
+   background: #FFFFFF;
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   z-index: 1;
+   border:1px solid #ccc;
+}
+ ul.claro-hmenu li:hover>ul {
+   visibility: visible;
+   top: 100%;
+}
+ ul.claro-hmenu li li:hover>ul {
+   top: 0;
+   left: 100%;
+}
+
+ul.claro-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   
+}
+
+ ul.claro-hmenu>li>ul
+{
+   padding: 13px 32px 32px 32px;
+   margin: -10px 0 0 -30px;
+
+}
+
+ ul.claro-hmenu ul ul
+{
+   padding: 32px 32px 32px 12px;
+   margin: -32px 0 0 -9px;
+}
+
+ ul.claro-hmenu ul.claro-hmenu-left-to-right 
+{
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+
+ ul.claro-hmenu ul.claro-hmenu-right-to-left 
+{
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+ ul.claro-hmenu li li:hover>ul.claro-hmenu-left-to-right {
+   right: auto;
+   left: 100%;
+}
+ ul.claro-hmenu li li:hover>ul.claro-hmenu-right-to-left {
+   left: auto;
+   right: 100%;
+}
+
+ ul.claro-hmenu ul ul.claro-hmenu-left-to-right
+{
+   right: auto;
+   left: 0;
+   padding: 32px 32px 32px 12px;
+   margin: -32px 0 0 -9px;
+}
+
+ ul.claro-hmenu ul ul.claro-hmenu-right-to-left
+{
+   left: auto;
+   right: 0;
+   padding: 32px 12px 32px 32px;
+   margin: -32px -9px 0 0;
+}
+
+
+
+ ul.claro-hmenu ul ul:before
+{
+   border-radius: 0;
+   top: 30px;
+   bottom: 30px;
+   right: 30px;
+   left: 10px;
+}
+
+ ul.claro-hmenu>li>ul:before
+{
+   top: 11px;
+   right: 30px;
+   bottom: 30px;
+   left: 30px;
+}
+
+ ul.claro-hmenu>li>ul.claro-hmenu-left-to-right:before {
+   right: 30px;
+   left: 30px;
+}
+ ul.claro-hmenu>li>ul.claro-hmenu-right-to-left:before {
+   right: 30px;
+   left: 30px;
+}
+ ul.claro-hmenu ul ul.claro-hmenu-left-to-right:before {
+   right: 30px;
+   left: 10px;
+}
+ ul.claro-hmenu ul ul.claro-hmenu-right-to-left:before {
+   right: 10px;
+   left: 30px;
+}
+

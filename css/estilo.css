@@ -1,0 +1,329 @@
+body
+{
+   font-family: 'Open San','Helvetica' !important;
+   background-color: #f2f3f3;
+}
+
+#cabecera
+{
+	background-color:#232323;
+	min-height: 48px;
+
+}
+
+#titulo
+{
+margin: 0;
+padding: 0;
+ color: #f2f3f3;
+ float: right;
+ padding-right:30px;
+ font-size: 30px;
+ font-family: 'Arial Black';
+}
+
+.wrap
+{
+	background: url(wrap-background.jpg) no-repeat top center #171717;
+	min-height: 120px;
+	height: auto;
+	position: fixed;
+	width: 100%;
+}
+.divBusquedaEmpleado
+{
+	height: 130px;
+}
+
+
+.formBusqueda, .fotoEmpleado
+{
+	display: inline-block;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	height: 100%;
+}
+.formBusqueda
+{
+	width: 70%;
+	padding: 20px 0px 10px 55px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.fotoEmpleado
+{
+	width: 29.9%;
+	 margin-left: -4px;
+	 background-color: rgba(182, 81, 81, 0.46);
+}
+
+
+.fotoEmpleado img
+{
+	 width: 28%;
+	height: 100%;
+	border: 3px solid #1CB99A;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+} 
+.infoDatosEmpleado{ 
+	width: 70%;
+	display: inline-block;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+.infoDatosEmpleado p
+{
+	position: absolute;
+	top: 60px;
+}
+.infoDatosEmpleado p label
+{
+ display: block;
+ color: #f2f3f3;
+}
+.infoDatosEmpleado p label span.etiquetaDatos
+{
+	font-size: 17px;
+	color: #B5B5B6;
+	font-weight: bold;
+	width: 30%;
+}
+
+.tableBusqueda tbody tr td
+{
+ padding: 4px 0px 4px 0px;
+}
+
+.tableBusqueda tbody tr td:first-child
+{
+	padding-right: 10px;
+}
+.tableBusqueda tbody tr td span
+{
+	color: rgba(16, 32, 5, 0.90);
+	font-weight: bold;
+}
+.tableBusqueda tbody tr td button
+{
+ padding: 2px 15px 2px 15px;
+ margin-left: 10px;
+}
+
+.inputForm
+{
+	height: 10px;
+	padding: 6px 9px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.dropdownForm 
+{
+	height: 25px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+    background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.selectFormBusqueda
+{ 
+	width: 350px;
+}
+
+.tableBusqueda .inputbuscar
+{
+ width: 200px;
+ text-transform: capitalize;
+}
+.inputCodigo
+{
+	width: 90px;
+}
+
+.btnForm
+{
+	background-color: #f3f3f3;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.btnForm:hover
+{
+	background-color: #ddd;
+	border:1px solid #f1f2f2;
+}
+
+.navPestana
+{
+	margin:0 auto;
+	margin-top: 15px;
+	width: 1240px;
+}
+.pestana
+{
+	list-style:none;
+	padding: 0;
+	width: 100%;
+}
+.pestana li
+{
+ margin: 0;
+ padding: 0;
+ padding-top: 10px;
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+padding-left: 1px;
+}
+.pestana li a
+{
+	text-decoration: none;
+	color: #f2f3f3;
+	padding: 10px 10px 10px 10px;
+	background: rgba(8, 109, 73, 0.32);
+	border-radius: 8px;
+	border: 1px solid rgba(131, 122, 122, 0.42);
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.pestana li a:hover
+{
+ background-color: rgba(34, 246, 171, 0.41);
+ border: 1px solid rgba(255, 255, 255, 0.60);
+}
+
+.contenedor
+{    width: auto;
+	 max-width: 1250px;
+	 margin: 0 auto;
+	 border: 1px solid #ccc;
+	background-color: #EBF1EE;
+	min-height: 440px;
+	padding-top: 220px;
+}
+
+.layout-2
+{
+  width: 49%;
+  height: 100%;
+  padding-top: 25px;
+   padding-left: 40px;
+   padding-right: 30px;
+  display: inline-block;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+}
+
+input[class^=input]
+{
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	text-transform: capitalize;
+}
+.input-2x
+{
+	width: 100px;
+	height: 12px !important;
+	font-size: 12px;
+	padding: 4px 5px;
+}
+.input-1x
+{
+	width: 30px;
+	height: 12px !important;
+	font-size: 13px;
+	padding: 4px 5px;
+}
+
+.input-3x
+{
+	width: 120px;
+	height: 12px !important;
+	font-size: 13px;
+	padding: 4px 5px;
+}
+
+.etiquetaForm
+{
+ font-size: 13px;
+ color:#333;
+ font-weight: bold;
+}
+
+.tablaFormDatos tbody tr td
+{
+ padding-bottom: 3px;
+}
+
+.tituFormDatos
+{
+ font-size: 16px;
+ font-weight: bold;
+ color: #1B6311;
+ text-decoration: underline;
+}
+
+
+.selectFormDatos
+{
+  	height: 20px;
+  	width: 112px;
+	font-size: 12px;
+	line-height: 1.42857143;
+	color: #555;
+    background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
