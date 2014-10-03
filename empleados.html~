@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Nomina</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloMenu.css">
+	<link rel="stylesheet" type="text/css" href="css/Iconografia/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrap">
+	<header id="cabecera">
+			 <nav class="navmenu">
+	                <ul class="claro-hmenu">
+	                    <li><a href="#" class="mn_principal"><i class="fa fa-gears fa-2x"> </i> ADMINISTRACIÓN <i class="fa fa-sort-down"> </i></a>
+	                        <ul>
+	                            <li><a href="empleados.html"> <i class="fa fa-check"></i> Empleados</a></li>
+	                            <li><a href="#"> <i class="fa fa-check"></i>  Referencias Legales</a></li>
+	                            <li><a href="#"><i class="fa fa-check"></i> Factores de Riesgos</a></li>
+	                            <li><a href="#"><i class="fa fa-check"></i> Parámetros Generales</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li ><a href="#"><i class="fa fa-briefcase fa-2x"> </i> ASISTENCIA <i class="fa fa-sort-down"> </i></a>
+	                        <ul>
+	                            <li><a href="#"><i class="fa fa-check"></i> Ingreso de Matriz de Riesgos Laborales por puestos</a></li>
+	                            <li><a href="#"><i class="fa fa-check"></i> Consulta de Matriz de Riesgos Laborales por puestos</a></li>
+	                        </ul>
+	                    </li>
+	                    <li><a href="#"><i class="fa fa-users fa-2x"> </i> NÓMINA <i class="fa fa-sort-down"> </i></a>
+	                        <ul>
+	                            <li><a href="#"><i class="fa fa-check"></i> Consulta del Profesiograma</a></li>
+	                        </ul>
+	                    </li>
+	                    <li><a href="#"><i class="fa fa-file-text-o fa-2x"> </i> REPORTES <i class="fa fa-sort-down"> </i></a>
+	                        <ul>
+	                            <li><a href="#"><i class="fa fa-check"></i> Reporte de referencias Legales</a></li>
+	                        </ul>
+	                    </li>
+	                </ul>
+			<nav>
+			<h2 id="titulo">
+				Sistema de Nomina
+			</h2>	
+	</header>
+	<div class="divBusquedaEmpleado">
+		<div  class="formBusqueda">
+			<table class="tableBusqueda" >
+				
+				<tbody>
+				<tr>
+					<td>
+					<span>Compañia :</span>						
+					</td>
+					<td>
+						<select  class="selectFormBusqueda dropdownForm">
+							<option> - Seleccione la Companía - </option>
+							<option> RIGHTTEK S.A.</option>
+							<option> MOTRANSA C.A.</option>
+						</select>
+					</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+					<span>Buscar :</span>						
+					</td>
+					<td><input class=" inputbuscar inputForm">
+						<label><input name="1" type="radio"><span>Activo</span></label>
+						<label><input name="1" type="radio"><span>Todos</span></label>
+					</td>
+					<td>
+						<button class="btnForm"><i class="fa fa-search"></i></button>
+					</td>
+					<td>
+						
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<span>Nombre :</span>						
+					</td>
+					<td>
+						<select class="selectFormBusqueda dropdownForm">
+							<option> - Seleccione el Empleado - </option>
+							<option> Juan Avelino San Lucas</option>
+							<option> Juan Peréz Goméz</option>
+						</select>
+					</td>
+					<td><span>Código</span></td>
+					<td>
+						<input class="inputForm inputCodigo" value="0929734333" disabled>
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		
+		</div>
+		<div class="fotoEmpleado">
+				<img src="img/fotoEmpleados/jose.jpg">
+			<div class="infoDatosEmpleado">
+				<p>
+				<label>
+					<span class="etiquetaDatos">Nombre:</span> 
+					<span>Juan Peréz Goméz</span>
+				</label>
+				<label>
+					<span class="etiquetaDatos">Cargo:</span> 
+					<span>Desarrollador de Software</span>
+				</label>
+				</p>
+			</div>
+		</div>
+	</div>
+		<div class="submenu">
+			<nav class="navPestana">
+			<ul class="pestana">
+				<li>
+					<a href="#">Colaborador</a>
+					<a href="#">Datos Personales</a>
+					<a href="#">Institucionales</a>
+					<a href="#">Familiares</a>
+					<a href="#">Instrucción</a>
+					<a href="#">Historial</a>
+					<a href="#">Documentos</a>
+					<a href="#">Cta. Personal</a>
+					<a href="#">Vacaciones</a>
+					<a href="#">Unif/Activos</a>
+					<a href="#">Impuestos</a>
+				</li>
+			</ul>
+			</nav>
+		</div>
+	</div>
+	<section>
+		<div class="contenedor">
+			<div class="layout-2">
+				<label class="tituFormDatos">Personales:</label>
+				<table class="tablaFormDatos">
+					<tbody>
+						<tr>
+							<td style=" width:120px"></td>
+							<td style="width:250px"></td>
+							<td style="width:120px"></td>
+							<td style="width:120px"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Apellido Pat. :</span></td>
+							<td><input class="input-2x"></td>
+							<td><span class="etiquetaForm">Apellido Mat. :</span></td>
+							<td><input class="input-2x"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Sexo :</span></td>
+							<td>
+								<label class="etiquetaForm"><input type="radio" name="sexo"> M </label>
+								<label class="etiquetaForm"><input type="radio" name="sexo"> F</label>
+							</td>
+							<td><span class="etiquetaForm">Cédula:</span></td>
+							<td><input class="input-2x noCopy"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Fecha/Nac. :</span></td>
+							<td><input class="input-2x"></td>
+							<td><span class="etiquetaForm">Ciudad :</span></td>
+							<td><input class="input-2x"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Profesión :</span></td>
+							<td><input class="input-2x"></td>
+							<td><span class="etiquetaForm">Especialidad :</span></td>
+							<td><input class="input-2x"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Estado Civil :</span></td>
+							<td>
+								<select class="selectFormDatos">
+									<option>Soltero(a)</option>	
+									<option>Casado(a)</option>
+									<option>Divorciado(a)</option>
+									<option>Unión Libre</option>
+								</select>
+							</td>
+							<td><span class="etiquetaForm">Núm/Cargas :</span></td>
+							<td><input class="input-1x noCopy"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Estatura :</span></td>
+							<td><input class="input-1x noCopy"><span class="etiquetaForm"> m.</span></td>
+							<td><span class="etiquetaForm">Peso :</span></td>
+							<td><input class="input-1x noCopy"><span class="etiquetaForm"> Kgs.</span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="etiquetaForm">Discapacitados :</span>
+							</td>
+							<td>
+								<input name="d" type="checkbox">
+							</td>
+							<td>
+								<span class="etiquetaForm">Tercera Edad:</span>
+							</td>
+							<td>
+								<input name="d" type="checkbox">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="layout-2">
+				<label class="tituFormDatos">*</label>
+				<table class="tablaFormDatos">
+					<tbody>
+						<tr>
+							<td style=" width:120px"></td>
+							<td style="width:250px"></td>
+							<td style="width:150px"></td>
+							<td style="width:120px"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Nombres :</span></td>
+							<td><input class="input-2x"></td>
+							<td><span class="etiquetaForm">Nombre Preferido :</span></td>
+							<td><input class="input-2x"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Lic. Cond. Cat :</span></td>
+							<td>
+								<label class="etiquetaForm"><input type="radio" name="sexo"> M </label>
+								<label class="etiquetaForm"><input type="radio" name="sexo"> F</label>
+							</td>
+							<td><span class="etiquetaForm">Tipo de Sangre:</span></td>
+							<td><input class="input-2x noCopy"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Provincia :</span></td>
+							<td>
+								<select class="selectFormDatos">
+									<option>Soltero(a)</option>	
+									<option>Casado(a)</option>
+									<option>Divorciado(a)</option>
+									<option>Unión Libre</option>
+								</select>
+							</td>
+							<td><span class="etiquetaForm">Nacionalidad :</span></td>
+							<td><input class="input-2x"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Profesión :</span></td>
+							<td><input class="input-2x"></td>
+							<td><span class="etiquetaForm">Especialidad :</span></td>
+							<td><input class="input-2x"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Estado Civil :</span></td>
+							<td>
+								<select class="selectFormDatos">
+									<option>Soltero(a)</option>	
+									<option>Casado(a)</option>
+									<option>Divorciado(a)</option>
+									<option>Unión Libre</option>
+								</select>
+							</td>
+							<td><span class="etiquetaForm">Núm/Cargas :</span></td>
+							<td><input class="input-1x noCopy"></td>
+						</tr>
+						<tr>
+							<td><span class="etiquetaForm">Estatura :</span></td>
+							<td><input class="input-1x noCopy"><span class="etiquetaForm"> m.</span></td>
+							<td><span class="etiquetaForm">Peso :</span></td>
+							<td><input class="input-1x noCopy"><span class="etiquetaForm"> Kgs.</span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="etiquetaForm">Discapacitados :</span>
+							</td>
+							<td>
+								<input name="d" type="checkbox">
+							</td>
+							<td>
+								<span class="etiquetaForm">Tercera Edad:</span>
+							</td>
+							<td>
+								<input name="d" type="checkbox">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
